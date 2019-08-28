@@ -8,6 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class ConsumerMovieApplication {
   @Bean
+  //使用RestTemplate调用用户微服务的API
   public RestTemplate restTemplate() {
     return new RestTemplate();
   }

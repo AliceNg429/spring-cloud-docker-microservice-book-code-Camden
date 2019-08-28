@@ -2,6 +2,7 @@ package com.itmuch.cloud.study.user.entity;
 
 import java.math.BigDecimal;
 
+//这是一个POJO类
 public class User {
   private Long id;
   private String username;
